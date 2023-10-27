@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		int a;
+		System.out.print("Enter a Number");
+		a = new Scanner(System.in).nextInt();
+		int ans = fact(a);
+		System.out.println(ans);
+	}
+
+	private static int fact(int a) {
+		int b = 1;;
+		for(int i=1;i<=a;i++) {
+			b =b*i;
+
+		}
+		return b;
+	}
+
+}
