@@ -1,0 +1,27 @@
+package compare_two_number;
+
+import java.util.Scanner;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		int a,b;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		a = sc.nextInt();
+		b = sc.nextInt();
+		
+		if(a==b) {
+			System.out.println("The number is equal");
+		}
+		
+			int z = a>b ? a:b;
+			System.out.println(z);
+			}
+	
+			
+			
+		
+	
+
+}
