@@ -15,7 +15,7 @@ public class Myclass {
 			}
 
 			if (count == 0) {
-				System.out.print("  "+i);
+				System.out.print("      ADITYA   ------------------  "+i);
 			}
 
 		}
